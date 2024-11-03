@@ -13,6 +13,7 @@ namespace WindowsFormsApp1
         private int dotCount = 0;
         private List<string> phrases;
         private Random random;
+        MainMenu mainMenu = new MainMenu();
 
         public Form1()
         {
@@ -190,6 +191,12 @@ namespace WindowsFormsApp1
         private void labelStatus_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            mainMenu.Show();
         }
     }
 }
