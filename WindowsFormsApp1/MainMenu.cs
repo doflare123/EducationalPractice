@@ -15,6 +15,12 @@ namespace WindowsFormsApp1
         public MainMenu()
         {
             InitializeComponent();
+            label1.Font = new Font("Segoe UI", 12, FontStyle.Italic);
+            label1.ForeColor = Color.Gray;
+            label2.Font = new Font("Segoe UI", 12, FontStyle.Italic);
+            label2.ForeColor = Color.Gray;
+            label3.Font = new Font("Segoe UI", 12, FontStyle.Italic);
+            label3.ForeColor = Color.Gray;
         }
 
         private void label2_Click(object sender, EventArgs e)
