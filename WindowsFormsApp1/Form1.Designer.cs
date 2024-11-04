@@ -32,9 +32,10 @@
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.Bibidzan = new System.Windows.Forms.PictureBox();
             this.labelStatus = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.Bibidzan = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.Bibidzan)).BeginInit();
             this.SuspendLayout();
             // 
@@ -48,9 +49,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(234, 80);
+            this.button1.Location = new System.Drawing.Point(196, 73);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(98, 58);
+            this.button1.Size = new System.Drawing.Size(185, 72);
             this.button1.TabIndex = 2;
             this.button1.Text = "Расчитать";
             this.button1.UseVisualStyleBackColor = true;
@@ -73,16 +74,6 @@
             this.richTextBox1.TabIndex = 1;
             this.richTextBox1.Text = "";
             // 
-            // Bibidzan
-            // 
-            this.Bibidzan.Image = global::WindowsFormsApp1.Properties.Resources._1673430789_looped_1673430789_online_video_cuttercom_96gmI1Md;
-            this.Bibidzan.Location = new System.Drawing.Point(234, 382);
-            this.Bibidzan.Name = "Bibidzan";
-            this.Bibidzan.Size = new System.Drawing.Size(100, 50);
-            this.Bibidzan.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Bibidzan.TabIndex = 4;
-            this.Bibidzan.TabStop = false;
-            // 
             // labelStatus
             // 
             this.labelStatus.AutoSize = true;
@@ -102,11 +93,33 @@
             this.label2.TabIndex = 6;
             this.label2.Text = "Получилось!";
             // 
+            // button2
+            // 
+            this.button2.AutoEllipsis = true;
+            this.button2.Location = new System.Drawing.Point(12, 4);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(23, 18);
+            this.button2.TabIndex = 7;
+            this.button2.Text = "←";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // Bibidzan
+            // 
+            this.Bibidzan.Image = global::WindowsFormsApp1.Properties.Resources._1673430789_looped_1673430789_online_video_cuttercom_96gmI1Md;
+            this.Bibidzan.Location = new System.Drawing.Point(234, 382);
+            this.Bibidzan.Name = "Bibidzan";
+            this.Bibidzan.Size = new System.Drawing.Size(100, 50);
+            this.Bibidzan.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Bibidzan.TabIndex = 4;
+            this.Bibidzan.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(627, 482);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.labelStatus);
             this.Controls.Add(this.Bibidzan);
@@ -131,6 +144,7 @@
         private System.Windows.Forms.PictureBox Bibidzan;
         private System.Windows.Forms.Label labelStatus;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button button2;
     }
 }
 
