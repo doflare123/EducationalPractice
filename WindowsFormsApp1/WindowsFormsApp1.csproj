@@ -58,8 +58,17 @@
     <Compile Include="MainMenu.Designer.cs">
       <DependentUpon>MainMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="PrimeNumber.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrimeNumber.Designer.cs">
+      <DependentUpon>PrimeNumber.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="PrimeNumber.resx">
+      <DependentUpon>PrimeNumber.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

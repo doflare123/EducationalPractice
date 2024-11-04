@@ -9,3 +9,15 @@ D:\11\education\EducationalPractice\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.
 D:\11\education\EducationalPractice\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 D:\11\education\EducationalPractice\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
 D:\11\education\EducationalPractice\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.MainMenu.resources
+C:\Users\hardt\Desktop\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\hardt\Desktop\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\hardt\Desktop\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\hardt\Desktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\hardt\Desktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\hardt\Desktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.MainMenu.resources
+C:\Users\hardt\Desktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\hardt\Desktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\hardt\Desktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\hardt\Desktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\hardt\Desktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\hardt\Desktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.PrimeNumber.resources
