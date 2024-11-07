@@ -137,7 +137,6 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "PrimeNumber";
             this.Text = "PrimeNumber";
-            this.Load += new System.EventHandler(this.PrimeNumber_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -21,3 +21,5 @@ C:\Users\hardt\Desktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCo
 C:\Users\hardt\Desktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\hardt\Desktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
 C:\Users\hardt\Desktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.PrimeNumber.resources
+D:\11\education\EducationalPractice\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.xml
+D:\11\education\EducationalPractice\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.PrimeNumber.resources

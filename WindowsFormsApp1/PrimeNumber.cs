@@ -12,14 +12,14 @@ namespace WindowsFormsApp1
 {
     public partial class PrimeNumber : Form
     {
-        Form1 form1 = new Form1();
-        int dotCount = 0;
-        string animationText;
+        // Объявление переменных
+        int dotCount = 0; // Количество точек для анимации
+        string animationText; // Текст для анимации
         private Random random;
-        private List<string> phrases;
-        private MainMenu mainMenu = new MainMenu();
-        private int clickButton = 0;
-        private bool checkPerfect(int num)
+        private List<string> phrases; // Список фраз для загрузки
+        private MainMenu mainMenu = new MainMenu(); // Ссылка на главную форму
+        private int clickButton = 0; // ID текущего поиска простых чисел
+        private bool checkPerfect(int num) // Проверка является ли num простым числом
         {
             for (int i = 2; i <= Math.Sqrt(num); i++)
             {
@@ -30,64 +30,59 @@ namespace WindowsFormsApp1
             }
             return true;
         }
-        public PrimeNumber()
+        public PrimeNumber() // Инициализация формы
         {
             InitializeComponent();
             phrases = mainMenu.phrases;
             random = new Random();
         }
 
-        private void PrimeNumber_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        int intNum1 = 0;
+        int intNum1 = 0; // Искомое количество простых чисел
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            string clearTxt = textBox1.Text.Replace(" ", "");
-            bool realNum = int.TryParse(clearTxt, out intNum1);
+            string clearTxt = textBox1.Text.Replace(" ", ""); // Текст без пробелов
+            bool realNum = int.TryParse(clearTxt, out intNum1); // проверка является ли текст числом
 
             if (realNum && clearTxt != "" && intNum1 >= 0)
             {
-                button1.Enabled = true;
+                button1.Enabled = true; // Включения кнопки поиска
             }
             else
             {
-                button1.Enabled = false;
+                button1.Enabled = false; // Выключения кнопки поиска
             }
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e) // Закрытие этой формы
         {
             this.Close();
             mainMenu.Show();
         }
 
-        private void animationTimer_Tick(object sender, EventArgs e)
+        private void animationTimer_Tick(object sender, EventArgs e) // Анимация загрузки
         {
             dotCount = (dotCount + 1) % 4;
             loading.Text = animationText + new string('.', dotCount);
         }
 
-        private async void button1_Click_1(object sender, EventArgs e)
+        private async void button1_Click_1(object sender, EventArgs e) // Кнопка поиска
         {
-            clickButton++;
-            if(clickButton > 2)
+            clickButton++; // Обновления айди текущего поиска
+            if (clickButton > 2)
             {
                 clickButton = 1;
             }
-            int localId = clickButton;
+            int localId = clickButton; // локальное айди
             perfectsBox.Text = "";
-            int cnum = 1;
-            int count = 0;
-            animationText = phrases[random.Next(phrases.Count)];
+            int cnum = 1; // текущее проверяемое число
+            int count = 0; // количество простых чисел
+            animationText = phrases[random.Next(phrases.Count)]; // случайная фраза для загрузки
             loading.Text = animationText;
             loading.Show();
-            animationTimer.Start();
+            animationTimer.Start(); // начало анимации загрузки
             while (count < intNum1 && clickButton == localId)
             {
-                if (checkPerfect(cnum))
+                if (checkPerfect(cnum)) // оформление текста
                 {
                     if (perfectsBox.Text != "")
                     {
@@ -98,11 +93,11 @@ namespace WindowsFormsApp1
                 cnum++;
                 count++;
 
-                await Task.Delay(10);
+                await Task.Delay(10); // задержка для того чтобы красиво показывались простые числа
             }
             if (clickButton == localId)
             {
-                animationTimer.Stop();
+                animationTimer.Stop(); // Остановка анимации
                 loading.Hide();
             }
         }

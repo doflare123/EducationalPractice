@@ -3,24 +3,36 @@
   "WorkspaceRootPath": "D:\\11\\education\\EducationalPractice\\WindowsFormsApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E2D6EEDD-CAB4-4D31-A67E-D947BE91C865}|WindowsFormsApp1.csproj|D:\\11\\education\\EducationalPractice\\WindowsFormsApp1\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E2D6EEDD-CAB4-4D31-A67E-D947BE91C865}|WindowsFormsApp1.csproj|solutionrelative:mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E2D6EEDD-CAB4-4D31-A67E-D947BE91C865}|WindowsFormsApp1.csproj|d:\\11\\education\\educationalpractice\\windowsformsapp1\\primenumber.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2D6EEDD-CAB4-4D31-A67E-D947BE91C865}|WindowsFormsApp1.csproj|solutionrelative:primenumber.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2D6EEDD-CAB4-4D31-A67E-D947BE91C865}|WindowsFormsApp1.csproj|d:\\11\\education\\educationalpractice\\windowsformsapp1\\primenumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2D6EEDD-CAB4-4D31-A67E-D947BE91C865}|WindowsFormsApp1.csproj|solutionrelative:primenumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2D6EEDD-CAB4-4D31-A67E-D947BE91C865}|WindowsFormsApp1.csproj|D:\\11\\education\\EducationalPractice\\WindowsFormsApp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2D6EEDD-CAB4-4D31-A67E-D947BE91C865}|WindowsFormsApp1.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E2D6EEDD-CAB4-4D31-A67E-D947BE91C865}|WindowsFormsApp1.csproj|D:\\11\\education\\EducationalPractice\\WindowsFormsApp1\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2D6EEDD-CAB4-4D31-A67E-D947BE91C865}|WindowsFormsApp1.csproj|solutionrelative:mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2D6EEDD-CAB4-4D31-A67E-D947BE91C865}|WindowsFormsApp1.csproj|d:\\11\\education\\educationalpractice\\windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2D6EEDD-CAB4-4D31-A67E-D947BE91C865}|WindowsFormsApp1.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2D6EEDD-CAB4-4D31-A67E-D947BE91C865}|WindowsFormsApp1.csproj|D:\\11\\education\\EducationalPractice\\WindowsFormsApp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E2D6EEDD-CAB4-4D31-A67E-D947BE91C865}|WindowsFormsApp1.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E2D6EEDD-CAB4-4D31-A67E-D947BE91C865}|WindowsFormsApp1.csproj|D:\\11\\education\\EducationalPractice\\WindowsFormsApp1\\primenumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E2D6EEDD-CAB4-4D31-A67E-D947BE91C865}|WindowsFormsApp1.csproj|solutionrelative:primenumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E2D6EEDD-CAB4-4D31-A67E-D947BE91C865}|WindowsFormsApp1.csproj|D:\\11\\education\\EducationalPractice\\WindowsFormsApp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2D6EEDD-CAB4-4D31-A67E-D947BE91C865}|WindowsFormsApp1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2D6EEDD-CAB4-4D31-A67E-D947BE91C865}|WindowsFormsApp1.csproj|D:\\11\\education\\EducationalPractice\\WindowsFormsApp1\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E2D6EEDD-CAB4-4D31-A67E-D947BE91C865}|WindowsFormsApp1.csproj|solutionrelative:mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2D6EEDD-CAB4-4D31-A67E-D947BE91C865}|WindowsFormsApp1.csproj|D:\\11\\education\\EducationalPractice\\WindowsFormsApp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E2D6EEDD-CAB4-4D31-A67E-D947BE91C865}|WindowsFormsApp1.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +42,48 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PrimeNumber.Designer.cs",
+              "DocumentMoniker": "D:\\11\\education\\EducationalPractice\\WindowsFormsApp1\\PrimeNumber.Designer.cs",
+              "RelativeDocumentMoniker": "PrimeNumber.Designer.cs",
+              "ToolTip": "D:\\11\\education\\EducationalPractice\\WindowsFormsApp1\\PrimeNumber.Designer.cs",
+              "RelativeToolTip": "PrimeNumber.Designer.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAswIoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T14:55:11.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PrimeNumber.cs",
+              "DocumentMoniker": "D:\\11\\education\\EducationalPractice\\WindowsFormsApp1\\PrimeNumber.cs",
+              "RelativeDocumentMoniker": "PrimeNumber.cs",
+              "ToolTip": "D:\\11\\education\\EducationalPractice\\WindowsFormsApp1\\PrimeNumber.cs",
+              "RelativeToolTip": "PrimeNumber.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAcwGkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T13:47:20.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "PrimeNumber.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "D:\\11\\education\\EducationalPractice\\WindowsFormsApp1\\PrimeNumber.cs",
+              "RelativeDocumentMoniker": "PrimeNumber.cs",
+              "ToolTip": "D:\\11\\education\\EducationalPractice\\WindowsFormsApp1\\PrimeNumber.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "PrimeNumber.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T13:47:19.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\11\\education\\EducationalPractice\\WindowsFormsApp1\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -46,28 +95,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "MainMenu.cs",
               "DocumentMoniker": "D:\\11\\education\\EducationalPractice\\WindowsFormsApp1\\MainMenu.cs",
               "RelativeDocumentMoniker": "MainMenu.cs",
               "ToolTip": "D:\\11\\education\\EducationalPractice\\WindowsFormsApp1\\MainMenu.cs",
               "RelativeToolTip": "MainMenu.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAUwBYAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAADoAAAAAAAAAAAAowF8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T11:37:18.543Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-03T11:37:18.543Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "MainMenu.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "D:\\11\\education\\EducationalPractice\\WindowsFormsApp1\\MainMenu.cs",
               "RelativeDocumentMoniker": "MainMenu.cs",
               "ToolTip": "D:\\11\\education\\EducationalPractice\\WindowsFormsApp1\\MainMenu.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "MainMenu.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T11:35:33.528Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+              "WhenOpened": "2024-11-03T11:35:33.528Z"
             },
             {
               "$type": "Document",
@@ -77,14 +124,13 @@
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "D:\\11\\education\\EducationalPractice\\WindowsFormsApp1\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAGQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAowJcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T11:54:13.018Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-30T11:54:13.018Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "D:\\11\\education\\EducationalPractice\\WindowsFormsApp1\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",

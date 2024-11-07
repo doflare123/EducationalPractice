@@ -8,6 +8,7 @@ namespace WindowsFormsApp1
 {
     public partial class Form1 : Form
     {
+        // Объявление переменных
         private Timer animationTimer;
         private string animationText;
         private int dotCount = 0;
@@ -17,11 +18,12 @@ namespace WindowsFormsApp1
 
         public Form1()
         {
+            // Сокрытие некоторых элементов формы
             InitializeComponent();
             label2.Hide();
             Bibidzan.Hide();
             labelStatus.Hide();
-
+            // Подключение рандомайзера
             random = new Random();
 
             phrases = mainMenu.phrases;
@@ -31,6 +33,7 @@ namespace WindowsFormsApp1
             animationTimer.Interval = 500; // Полсекунды между обновлениями
             animationTimer.Tick += AnimationTimer_Tick;
 
+            // Выдача стилей для кнопки, текстбоксов, лейблов
             button1.Text = "Начать расчет";
             button1.Font = new Font("Segoe UI", 12, FontStyle.Bold);
             button1.BackColor = Color.CornflowerBlue;
@@ -49,11 +52,13 @@ namespace WindowsFormsApp1
             label2.ForeColor = Color.Gray;
         }
 
+        // Функция, которая вызывется при клике на кнопку. Она зпускает выполнение решето Эратосфена
         private async void button1_Click(object sender, EventArgs e)
         {
             long diapos;
             bool isParsed = long.TryParse(textBox1.Text, out diapos);
 
+            // Проверка на валидность
             if (isParsed && diapos >= 2)
             {
                 richTextBox1.Clear();
@@ -83,6 +88,7 @@ namespace WindowsFormsApp1
                 int maxCharsPerLine = 50;
                 string line = "";
 
+                // Оформление вывода
                 for (int i = 2; i <= diapos; i++)
                 {
                     if (isPrime[i])
